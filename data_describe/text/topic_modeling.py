@@ -60,6 +60,7 @@ def topic_model(
     return topicwidget
 
 
+@requires("tqdm")
 @requires("gensim")
 @requires("pyLDAvis")
 class TopicModelWidget(BaseWidget):
